@@ -5,7 +5,56 @@ margin: 0;
 padding: 0;
 }
 
-body{
+body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: aquamarine;
+}
+
+.container {
+    background-color: bisque;
+    width: 800px;
+    /* height: 400px; */
+    margin-left: calc(50% - 400px);
+    margin-top: 200px;
+    color: #666;
+    display: inline-block;
+    padding: 50px;
+    background-image: url(../img/bub-bg.png);
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.trasparent-title{
+    font-size: 300px;
+    color: #66666622;
+    line-height: 1em;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 100px;
+    line-height: 1em;
+}
+
+.home {
+    text-decoration: none;
+    color: #3D9CC0;
+    font-size: 20px;
+    line-height: 1em;
+}
+
+.fa-long-arrow-right {
+    margin-left: 1em;
+}
+
+.home:hover {
+    color: #666;
+    background-color: #3D9CC0;
+    border-radius: 0.5em;
 }
