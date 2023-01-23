@@ -13,9 +13,9 @@ body {
 .container {
     background-color: bisque;
     width: 800px;
-    /* height: 400px; */
+    height: 600px;
     margin-left: calc(50% - 400px);
-    margin-top: 200px;
+    margin-top: calc(50vh - 300px);
     color: #666;
     display: inline-block;
     padding: 50px;
@@ -28,6 +28,7 @@ body {
     font-size: 300px;
     color: #66666622;
     line-height: 1em;
+    user-select: none;
 }
 
 .title {
@@ -47,6 +48,7 @@ body {
     color: #3D9CC0;
     font-size: 20px;
     line-height: 1em;
+    user-select: none;
 }
 
 .fa-long-arrow-right {
